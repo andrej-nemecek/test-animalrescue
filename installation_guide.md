@@ -38,10 +38,13 @@ Use this option during installation
 ❯ Manually select features
 ```
 Select all features. Press `Space` to select feature.
+
 ![Image 1](img1.png)
+
 Then you can continue pressing `Enter` to confirm selected features.
 
 Select this options:
+
 ![Image 2](img2.png)
 
 ### [3. Install Vuetify](https://vuetifyjs.com/en/getting-started/quick-start)
@@ -50,6 +53,7 @@ Select this options:
 $ cd animalrescue-ui
 $ vue add vuetify
 ```
+
 ![Image 3](img3.png)
 
 ### 4. Edit tsconfig.json
@@ -66,7 +70,9 @@ Edit file `tsconfig.json` and add value `"vuetify"` to `types` array
 Reason why you have to do it you can find [here](https://github.com/vuetifyjs/vue-cli-plugin-vuetify/issues/43).
 ### 5. Change package.json if needed
 If you get this warning during Vuetify installation:
+
 ![Image 4](img4.png)
+
 Change sass-loader from version `^8.0.0` to version `^7.1.0` in `package.json` file:
 ```json
 "sass-loader": "^7.1.0",
