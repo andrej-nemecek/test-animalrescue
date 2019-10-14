@@ -1,7 +1,7 @@
 # Installation guide
 
 ## Prerequisite for this guide
-  - [Node.js](https://nodejs.org/en/download/) (v10.16.0 used) with NPM (6.9.0 used) installed
+  - [Node.js](https://nodejs.org/en/download/) (v10.16.3 used) with NPM (6.9.0 used) installed
   - [Vue CLI](https://cli.vuejs.org/guide/installation.html) installed globally
   - Linux (Ubuntu 18.04 LTS used)
 
