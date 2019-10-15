@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div class="new-case">
+    <HelloWorld msg="This is NewCases"/>
   </div>
 </template>
 
